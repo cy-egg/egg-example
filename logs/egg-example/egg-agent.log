@@ -1,0 +1,4 @@
+2019-06-08 17:30:11,723 INFO 9307 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 17:30:11,731 INFO 9307 [egg:core] dump config after load, 4ms
+2019-06-08 17:30:11,773 INFO 9307 [egg-watcher:agent] watcher start success
+2019-06-08 17:30:11,779 INFO 9307 [egg:core] dump config after ready, 4ms
