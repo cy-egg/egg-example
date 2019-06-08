@@ -19,3 +19,10 @@ exports.robot = {
         /curl/i
     ]
 }
+
+// module.exports = {
+//     middleware: ['gzip'],
+//     gzip:{
+//         threshold: 1024
+//     }
+// }

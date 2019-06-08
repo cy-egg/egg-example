@@ -2,3 +2,119 @@
 2019-06-08 17:30:11,731 INFO 9307 [egg:core] dump config after load, 4ms
 2019-06-08 17:30:11,773 INFO 9307 [egg-watcher:agent] watcher start success
 2019-06-08 17:30:11,779 INFO 9307 [egg:core] dump config after ready, 4ms
+2019-06-08 20:50:43,615 INFO 10728 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 20:50:43,623 INFO 10728 [egg:core] dump config after load, 3ms
+2019-06-08 20:50:43,673 INFO 10728 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 20:50:43,673 INFO 10728 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 20:50:43,673 INFO 10728 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 20:50:43,673 INFO 10728 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 20:50:43,674 INFO 10728 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 20:50:43,674 INFO 10728 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 20:50:43,675 INFO 10728 [egg-watcher:agent] watcher start success
+2019-06-08 20:50:43,700 INFO 10728 [egg:core] dump config after ready, 3ms
+2019-06-08 20:51:33,114 INFO 10736 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 20:51:33,123 INFO 10736 [egg:core] dump config after load, 4ms
+2019-06-08 20:51:33,156 INFO 10736 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 20:51:33,157 INFO 10736 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 20:51:33,157 INFO 10736 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 20:51:33,157 INFO 10736 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 20:51:33,157 INFO 10736 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 20:51:33,157 INFO 10736 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 20:51:33,158 INFO 10736 [egg-watcher:agent] watcher start success
+2019-06-08 20:51:33,173 INFO 10736 [egg:core] dump config after ready, 3ms
+2019-06-08 20:51:56,449 INFO 10745 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 20:51:56,457 INFO 10745 [egg:core] dump config after load, 3ms
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 20:51:56,485 INFO 10745 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 20:51:56,486 INFO 10745 [egg-watcher:agent] watcher start success
+2019-06-08 20:51:56,504 INFO 10745 [egg:core] dump config after ready, 4ms
+2019-06-08 20:53:21,148 INFO 10755 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 20:53:21,158 INFO 10755 [egg:core] dump config after load, 4ms
+2019-06-08 20:53:21,188 INFO 10755 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 20:53:21,188 INFO 10755 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 20:53:21,189 INFO 10755 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 20:53:21,189 INFO 10755 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 20:53:21,189 INFO 10755 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 20:53:21,189 INFO 10755 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 20:53:21,190 INFO 10755 [egg-watcher:agent] watcher start success
+2019-06-08 20:53:21,208 INFO 10755 [egg:core] dump config after ready, 5ms
+2019-06-08 21:00:48,308 INFO 10822 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:00:48,319 INFO 10822 [egg:core] dump config after load, 6ms
+2019-06-08 21:00:48,350 INFO 10822 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:00:48,350 INFO 10822 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:00:48,350 INFO 10822 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:00:48,350 INFO 10822 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:00:48,351 INFO 10822 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:00:48,351 INFO 10822 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:00:48,351 INFO 10822 [egg-watcher:agent] watcher start success
+2019-06-08 21:00:48,371 INFO 10822 [egg:core] dump config after ready, 4ms
+2019-06-08 21:02:36,966 INFO 10837 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:02:36,974 INFO 10837 [egg:core] dump config after load, 4ms
+2019-06-08 21:02:37,006 INFO 10837 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:02:37,006 INFO 10837 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:02:37,006 INFO 10837 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:02:37,006 INFO 10837 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:02:37,007 INFO 10837 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:02:37,007 INFO 10837 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:02:37,008 INFO 10837 [egg-watcher:agent] watcher start success
+2019-06-08 21:02:37,023 INFO 10837 [egg:core] dump config after ready, 3ms
+2019-06-08 21:03:04,184 INFO 10845 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:03:04,197 INFO 10845 [egg:core] dump config after load, 3ms
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:03:04,229 INFO 10845 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:03:04,230 INFO 10845 [egg-watcher:agent] watcher start success
+2019-06-08 21:03:04,244 INFO 10845 [egg:core] dump config after ready, 3ms
+2019-06-08 21:03:39,611 INFO 10853 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:03:39,624 INFO 10853 [egg:core] dump config after load, 3ms
+2019-06-08 21:03:39,656 INFO 10853 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:03:39,656 INFO 10853 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:03:39,657 INFO 10853 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:03:39,657 INFO 10853 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:03:39,657 INFO 10853 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:03:39,657 INFO 10853 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:03:39,657 INFO 10853 [egg-watcher:agent] watcher start success
+2019-06-08 21:03:39,673 INFO 10853 [egg:core] dump config after ready, 3ms
+2019-06-08 21:14:07,562 INFO 10929 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:14:07,570 INFO 10929 [egg:core] dump config after load, 3ms
+2019-06-08 21:14:07,616 INFO 10929 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:14:07,616 INFO 10929 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:14:07,616 INFO 10929 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:14:07,616 INFO 10929 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:14:07,616 INFO 10929 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:14:07,617 INFO 10929 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:14:07,617 INFO 10929 [egg-watcher:agent] watcher start success
+2019-06-08 21:14:07,632 INFO 10929 [egg:core] dump config after ready, 3ms
+2019-06-08 21:14:34,991 WARN 10929 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/app/router.js___jb_old___ rename
+2019-06-08 21:14:34,784 INFO 10929 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:14:34,786 INFO 10929 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31088417,"size":271,"blocks":8,"atimeMs":1559999674138.6055,"mtimeMs":1559999674139.3057,"ctimeMs":1559999674140.3242,"birthtimeMs":1559999674138.6055,"atime":"2019-06-08T13:14:34.139Z","mtime":"2019-06-08T13:14:34.139Z","ctime":"2019-06-08T13:14:34.140Z","birthtime":"2019-06-08T13:14:34.139Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-08 21:14:34,787 INFO 10929 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:14:42,401 INFO 10941 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 21:14:42,410 INFO 10941 [egg:core] dump config after load, 3ms
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 21:14:42,446 INFO 10941 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 21:14:42,447 INFO 10941 [egg-watcher:agent] watcher start success
+2019-06-08 21:14:42,461 INFO 10941 [egg:core] dump config after ready, 3ms
+2019-06-08 21:15:27,109 WARN 10941 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/app/router.js___jb_old___ rename
+2019-06-08 21:15:26,902 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:15:26,905 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31088525,"size":271,"blocks":8,"atimeMs":1559999726805.046,"mtimeMs":1559999726805.3147,"ctimeMs":1559999726806.3362,"birthtimeMs":1559999726805.046,"atime":"2019-06-08T13:15:26.805Z","mtime":"2019-06-08T13:15:26.805Z","ctime":"2019-06-08T13:15:26.806Z","birthtime":"2019-06-08T13:15:26.805Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-08 21:15:26,906 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:15:33,472 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:15:33,473 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31088538,"size":269,"blocks":8,"atimeMs":1559999733457.81,"mtimeMs":1559999733458.0562,"ctimeMs":1559999733461.085,"birthtimeMs":1559999733457.81,"atime":"2019-06-08T13:15:33.458Z","mtime":"2019-06-08T13:15:33.458Z","ctime":"2019-06-08T13:15:33.461Z","birthtime":"2019-06-08T13:15:33.458Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-08 21:15:33,474 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:15:33,675 WARN 10941 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/app/router.js___jb_old___ rename
+2019-06-08 21:19:12,882 WARN 10941 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/app/router.js rename
+2019-06-08 21:19:12,680 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:19:12,680 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 21:19:12,681 INFO 10941 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31089093,"size":285,"blocks":8,"atimeMs":1559999952577.5256,"mtimeMs":1559999952577.8481,"ctimeMs":1559999952578.852,"birthtimeMs":1559999952577.5256,"atime":"2019-06-08T13:19:12.578Z","mtime":"2019-06-08T13:19:12.578Z","ctime":"2019-06-08T13:19:12.579Z","birthtime":"2019-06-08T13:19:12.578Z"},"remove":false,"isDirectory":false,"isFile":true}

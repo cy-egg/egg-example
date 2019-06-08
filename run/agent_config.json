@@ -115,6 +115,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -134,7 +141,7 @@
     },
     "view": {
       "root": "/Users/chuyan/Desktop/egg-example/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -146,9 +153,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": true
+      "cache": false
     },
-    "env": "unittest",
+    "env": "local",
     "name": "egg-example",
     "keys": "<String len: 6>",
     "proxy": false,
@@ -220,17 +227,19 @@
     "logger": {
       "dir": "/Users/chuyan/Desktop/egg-example/logs/egg-example",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "egg-example-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -288,7 +297,6 @@
     ],
     "robot": {
       "ua": [
-        {},
         {}
       ]
     },
@@ -393,6 +401,21 @@
       "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-multipart",
       "version": "2.7.1"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development",
+      "version": "2.4.3"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -441,15 +464,6 @@
       "from": "/Users/chuyan/Desktop/egg-example/config/plugin.js",
       "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
-    },
-    "egg-mock": {
-      "enable": true,
-      "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-mock",
-      "name": "egg-mock",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "version": "3.23.1"
     }
   }
 }

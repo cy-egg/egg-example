@@ -6,7 +6,7 @@
       ".tpl": "/Users/chuyan/Desktop/egg-example/config/config.default.js"
     },
     "root": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view/config/config.default.js"
   },
   "news": {
@@ -15,7 +15,7 @@
   },
   "middleware": "/Users/chuyan/Desktop/egg-example/config/config.default.js",
   "robot": {
-    "ua": "/Users/chuyan/Desktop/egg-example/config/config.default.js"
+    "ua": "/Users/chuyan/Desktop/egg-example/config/config.local.js"
   },
   "session": {
     "maxAge": "/Users/chuyan/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
@@ -42,7 +42,7 @@
       "value": "/Users/chuyan/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/chuyan/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/chuyan/Desktop/egg-example/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Users/chuyan/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/chuyan/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
     },
@@ -97,7 +97,7 @@
     "cookieMaxAge": "/Users/chuyan/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/chuyan/Desktop/egg-example/node_modules/egg-watcher/config/config.unittest.js",
+    "type": "/Users/chuyan/Desktop/egg-example/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
       "default": "/Users/chuyan/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/chuyan/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js"
@@ -128,6 +128,13 @@
       "cron": "/Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js"
     }
   },
+  "development": {
+    "watchDirs": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/config.default.js"
+  },
   "logrotator": {
     "filesRotateByHour": "/Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
@@ -150,7 +157,7 @@
     "throwOnUndefined": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
     "trimBlocks": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
     "lstripBlocks": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/config.default.js"
+    "cache": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
   "name": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
@@ -225,15 +232,17 @@
     "encoding": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "env": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "level": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.unittest.js",
+    "consoleLevel": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "disableConsoleAfterReady": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "outputJSON": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.unittest.js",
+    "buffer": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "appLogName": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "coreLogName": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.local.js"
+    },
     "allowDebugAtProd": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
