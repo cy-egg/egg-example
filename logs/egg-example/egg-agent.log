@@ -2,3 +2,82 @@
 2019-06-08 17:30:11,731 INFO 9307 [egg:core] dump config after load, 4ms
 2019-06-08 17:30:11,773 INFO 9307 [egg-watcher:agent] watcher start success
 2019-06-08 17:30:11,779 INFO 9307 [egg:core] dump config after ready, 4ms
+2019-06-08 22:22:46,721 INFO 11551 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-08 22:22:46,730 INFO 11551 [egg:core] dump config after load, 3ms
+2019-06-08 22:22:46,808 INFO 11551 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-08 22:22:46,809 INFO 11551 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-08 22:22:46,809 INFO 11551 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-08 22:22:46,810 INFO 11551 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-08 22:22:46,810 INFO 11551 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-08 22:22:46,810 INFO 11551 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-08 22:22:46,810 INFO 11551 [egg-watcher:agent] watcher start success
+2019-06-08 22:22:46,843 INFO 11551 [egg:core] dump config after ready, 3ms
+2019-06-08 22:27:40,264 WARN 11551 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/app/service/user.js___jb_old___ rename
+2019-06-08 22:27:40,057 INFO 11551 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/service/user.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-08 22:27:40,059 INFO 11551 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31114567,"size":573,"blocks":8,"atimeMs":1560004059772.8408,"mtimeMs":1560004059773.0964,"ctimeMs":1560004059773.759,"birthtimeMs":1560004059772.8408,"atime":"2019-06-08T14:27:39.773Z","mtime":"2019-06-08T14:27:39.773Z","ctime":"2019-06-08T14:27:39.774Z","birthtime":"2019-06-08T14:27:39.773Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-08 22:27:40,060 INFO 11551 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/app/service/user.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-09 03:59:02,393 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 8395333ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 05:47:32,677 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 6469902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 05:58:13,247 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 640467ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 05:59:37,401 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 83947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 11:11:50,128 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 18712656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 12:51:22,716 ERROR 11551 nodejs.ClusterClientNoResponseError: client no response in 5972092ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chuyan/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 11551
+hostname: wangchuyandeMacBook-Pro.local
+
+2019-06-09 12:51:33,047 INFO 12610 [egg:logger] init all loggers with options: {"dir":"/Users/chuyan/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-09 12:51:33,055 INFO 12610 [egg:core] dump config after load, 3ms
+2019-06-09 12:51:33,100 INFO 12610 [egg-watcher] Start watching: ["/Users/chuyan/Desktop/egg-example/app","/Users/chuyan/Desktop/egg-example/config","/Users/chuyan/Desktop/egg-example/mocks","/Users/chuyan/Desktop/egg-example/mocks_proxy","/Users/chuyan/Desktop/egg-example/app.js"]
+2019-06-09 12:51:33,100 INFO 12610 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app"
+2019-06-09 12:51:33,101 INFO 12610 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/config"
+2019-06-09 12:51:33,101 INFO 12610 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks"
+2019-06-09 12:51:33,101 INFO 12610 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/mocks_proxy"
+2019-06-09 12:51:33,101 INFO 12610 [egg-watcher] Start watching: "/Users/chuyan/Desktop/egg-example/app.js"
+2019-06-09 12:51:33,101 INFO 12610 [egg-watcher:agent] watcher start success
+2019-06-09 12:51:33,121 INFO 12610 [egg:core] dump config after ready, 4ms
+2019-06-09 13:03:50,131 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/plugin.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-09 13:03:50,132 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31123886,"size":136,"blocks":8,"atimeMs":1560056630045.714,"mtimeMs":1560056630046.2534,"ctimeMs":1560056630046.9463,"birthtimeMs":1560056630045.714,"atime":"2019-06-09T05:03:50.046Z","mtime":"2019-06-09T05:03:50.046Z","ctime":"2019-06-09T05:03:50.047Z","birthtime":"2019-06-09T05:03:50.046Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-09 13:03:50,133 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/plugin.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-09 13:03:50,133 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/config.default.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-09 13:03:50,133 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":31123887,"size":540,"blocks":8,"atimeMs":1560056630049.7256,"mtimeMs":1560056630049.869,"ctimeMs":1560056630050.5857,"birthtimeMs":1560056630049.7256,"atime":"2019-06-09T05:03:50.050Z","mtime":"2019-06-09T05:03:50.050Z","ctime":"2019-06-09T05:03:50.051Z","birthtime":"2019-06-09T05:03:50.050Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-06-09 13:03:50,134 INFO 12610 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/chuyan/Desktop/egg-example/config/config.default.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-06-09 13:03:50,336 WARN 12610 [agent:development] reload worker because /Users/chuyan/Desktop/egg-example/config/config.default.js___jb_old___ rename

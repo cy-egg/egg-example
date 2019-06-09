@@ -19,3 +19,15 @@ exports.robot = {
         /curl/i
     ]
 }
+
+exports.mysql = {
+    client: {
+        host: 'mysql.com',
+        port: '3306',
+        user: 'test_user',
+        pasword: 'test_password',
+        database: 'test'
+    },
+    app: true,
+    agent: false
+}

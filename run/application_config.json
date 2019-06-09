@@ -99,13 +99,13 @@
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-watcher/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-schedule/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/config/locales",
+        "/Users/chuyan/Desktop/egg-example/node_modules/egg-development/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-static/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-view/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks/config/locales",
-        "/Users/chuyan/Desktop/egg-example/node_modules/egg-mock/config/locales",
+        "/Users/chuyan/Desktop/egg-example/node_modules/egg-mysql/config/locales",
         "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/locales",
-        "/Users/chuyan/Desktop/egg-example/node_modules/egg-mock/lib/tmp/config/locales",
         "/Users/chuyan/Desktop/egg-example/config/locales"
       ],
       "queryField": "locale",
@@ -146,6 +146,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -167,7 +174,7 @@
       "root": [
         "/Users/chuyan/Desktop/egg-example/app/view"
       ],
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -179,9 +186,24 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": true
+      "cache": false
     },
-    "env": "unittest",
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "mysql.com",
+        "port": "3306",
+        "user": "test_user",
+        "pasword": "test_password",
+        "database": "test"
+      }
+    },
+    "env": "local",
     "name": "egg-example",
     "keys": "<String len: 6>",
     "proxy": false,
@@ -211,6 +233,7 @@
       "homepage": "https://github.com/cy-egg/egg-example#readme",
       "dependencies": {
         "egg": "^2.22.2",
+        "egg-mysql": "^3.0.0",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.24.0"
       },
@@ -254,17 +277,19 @@
     "logger": {
       "dir": "/Users/chuyan/Desktop/egg-example/logs/egg-example",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "egg-example-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "application"
     },
@@ -300,9 +325,9 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "clusterAppMock",
       "securities",
-      "i18n"
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -327,7 +352,6 @@
     ],
     "robot": {
       "ua": [
-        {},
         {}
       ]
     },
@@ -444,6 +468,21 @@
       "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-multipart",
       "version": "2.7.1"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chuyan/Desktop/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-development",
+      "version": "2.4.3"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -493,14 +532,16 @@
       "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     },
-    "egg-mock": {
+    "mysql": {
       "enable": true,
-      "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-mock",
-      "name": "egg-mock",
+      "package": "egg-mysql",
+      "name": "mysql",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "3.23.1"
+      "from": "/Users/chuyan/Desktop/egg-example/config/plugin.js",
+      "path": "/Users/chuyan/Desktop/egg-example/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

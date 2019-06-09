@@ -4,3 +4,21 @@
 2019-06-08 17:30:12,167 INFO 9307 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39587836ms at 2019-06-09 04:30:00.003
 2019-06-08 17:30:12,167 INFO 9307 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23387833ms at 2019-06-09 00:00:00.000
 2019-06-08 17:30:12,167 INFO 9307 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23388833ms at 2019-06-09 00:00:01.000
+2019-06-08 22:22:47,719 INFO 11551 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22032284ms at 2019-06-09 04:30:00.003
+2019-06-08 22:22:47,719 INFO 11551 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 5832281ms at 2019-06-09 00:00:00.000
+2019-06-08 22:22:47,719 INFO 11551 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5833281ms at 2019-06-09 00:00:01.000
+2019-06-08 22:22:47,598 INFO 11552 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 22:22:47,598 INFO 11552 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-08 22:22:47,598 INFO 11552 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-08 22:27:41,582 INFO 11677 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-08 22:27:41,582 INFO 11677 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-08 22:27:41,582 INFO 11677 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-09 12:51:33,978 INFO 12610 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56306025ms at 2019-06-10 04:30:00.003
+2019-06-09 12:51:33,979 INFO 12610 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 40106021ms at 2019-06-10 00:00:00.000
+2019-06-09 12:51:33,979 INFO 12610 [Timer] /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 40107021ms at 2019-06-10 00:00:01.000
+2019-06-09 12:51:33,856 INFO 12613 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-09 12:51:33,856 INFO 12613 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-09 12:51:33,856 INFO 12613 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-09 13:03:51,289 INFO 13226 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-09 13:03:51,289 INFO 13226 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-09 13:03:51,289 INFO 13226 [egg-schedule]: register schedule /Users/chuyan/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
